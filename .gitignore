@@ -1,7 +1,4 @@
-SpudDemo/target
-SpudCore/target
-SpudSecurity/target
-SpudCms/target
 plugin.xml
+target/
 .DS_Store
 
