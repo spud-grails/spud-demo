@@ -79,7 +79,7 @@ grails.project.dependency.resolution = {
 }
 
 // grails.plugin.location."less-asset-pipeline" = "../../less-grails-asset-pipeline"
-grails.plugin.location."asset-pipeline" = "../../asset-pipeline"
+// grails.plugin.location."asset-pipeline" = "../../asset-pipeline"
 grails.plugin.location."spud-core" = "../SpudCore"
 grails.plugin.location."spud-security" = "../SpudSecurity"
 grails.plugin.location."spud-cms" = "../SpudCms"
