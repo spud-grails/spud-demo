@@ -6,7 +6,7 @@ dataSource {
 }
 hibernate {
     cache.use_second_level_cache = true
-    cache.use_query_cache = false
+    cache.use_query_cache = true
     cache.region.factory_class = 'net.sf.ehcache.hibernate.EhCacheRegionFactory' // Hibernate 3
 //    cache.region.factory_class = 'org.hibernate.cache.ehcache.EhCacheRegionFactory' // Hibernate 4
 }
@@ -16,6 +16,7 @@ environments {
     development {
       dataSource {
         dbCreate = "update"
+        logSql=true
         url = "jdbc:h2:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         properties {
            maxActive = -1
