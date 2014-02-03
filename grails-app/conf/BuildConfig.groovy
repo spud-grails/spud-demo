@@ -74,6 +74,7 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.10.2"
         runtime ":asset-pipeline:1.5.0"
         runtime ":less-asset-pipeline:1.5.0"
+        runtime ":security-bridge:0.1.0"
         compile ":twitter-bootstrap:3.0.3"
     }
 }
@@ -84,3 +85,4 @@ grails.plugin.location."spud-core" = "../SpudCore"
 grails.plugin.location."spud-security" = "../SpudSecurity"
 grails.plugin.location."spud-cms" = "../SpudCms"
 grails.plugin.location."spud-permalinks" = "../SpudPermalinks"
+// grails.plugin.location."security-bridge" = "../../grails-security-bridge"
