@@ -48,7 +48,6 @@
     </nav>
 
     <g:pageProperty name="page.appContent"/>
-    ${assetPath(src:'application.js')}
 
 
     <div class="footer" role="contentinfo">

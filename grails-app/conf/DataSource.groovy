@@ -16,7 +16,7 @@ environments {
     development {
       dataSource {
         dbCreate = "update"
-        logSql=true
+        logSql=false
         url = "jdbc:h2:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         properties {
            maxActive = -1
