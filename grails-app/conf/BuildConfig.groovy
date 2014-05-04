@@ -26,8 +26,8 @@ grails.project.fork = [
 grails.project.dependency.resolver = "maven" // or ivy
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
-    inherits("global") 
-    log "error" 
+    inherits("global")
+    log "error"
     checksums true
     legacyResolve false
 
@@ -62,7 +62,7 @@ grails.project.dependency.resolution = {
         compile ":profiler:0.5"
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate:3.6.10.10" 
+        runtime ":hibernate:3.6.10.10"
         runtime ":database-migration:1.3.5"
         runtime ":jquery:1.11.0.1"
         runtime ":asset-pipeline:1.7.4"
@@ -72,10 +72,7 @@ grails.project.dependency.resolution = {
     }
 }
 
-// grails.plugin.location."less-asset-pipeline" = "../../less-grails-asset-pipeline"
-// grails.plugin.location."asset-pipeline" = "../../plugins/asset-pipeline"
-// grails.plugin.location."retina-tag" = "../../plugins/retina-tag-grails"
-// grails.plugin.location."karman" = "../../plugins/karman"
+
 grails.plugin.location."spud-core" = "../spud-core"
 grails.plugin.location."spud-security" = "../spud-security"
 grails.plugin.location."spud-cms" = "../spud-cms"
